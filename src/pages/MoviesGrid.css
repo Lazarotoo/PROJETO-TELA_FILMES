@@ -1,3 +1,4 @@
+/* Estilo do título principal */
 .container .title {
   color: #fff;
   font-size: 2.5rem;
@@ -5,19 +6,22 @@
   margin: 2rem 0 1rem;
 }
 
+/* Cor diferente para destacar o texto da busca */
 .title .query-text {
   color: #f7d354;
 }
 
+/* Container que mostra todos os filmes */
 .movies-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Quebra linha quando necessário */
   justify-content: space-between;
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
 
+/* Estilo de cada item de filme */
 .movies-container div {
   width: 30%;
   color: #fff;
@@ -29,23 +33,28 @@
   padding: 1rem;
 }
 
+/* Imagem do filme com largura máxima de 100% */
 .movies-container div img {
   max-width: 100%;
 }
 
+/* Espaço entre a imagem e o texto */
 .movies-container div img,
 .movies-container div p {
   margin-bottom: 1rem;
 }
 
+/* Espaço abaixo do título */
 .movies-container div h2 {
   margin-bottom: 1.5rem;
 }
 
+/* Cor do ícone de estrela */
 .movies-container div svg {
   color: #f7d354;
 }
 
+/* Botão de link para detalhes do filme */
 .movies-container div a {
   background-color: #f7d354;
   border: 2px solid #f7d354;
@@ -56,6 +65,7 @@
   font-weight: bold;
 }
 
+/* Efeito ao passar o mouse no botão */
 .movies-container div a:hover {
   background-color: transparent;
   color: #f7d354;

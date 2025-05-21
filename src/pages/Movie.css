@@ -1,3 +1,4 @@
+/* Container principal da página do filme */
 .movie-page {
   color: #fff;
   display: grid;
@@ -6,25 +7,30 @@
   margin: 2rem auto;
 }
 
+/* Define cor e tamanho dos ícones (ex: estrela) */
 .movie-page svg {
   font-size: 1.5rem;
   color: #f7d354;
 }
 
+/* Centraliza os elementos do cartão do filme */
 .movie-page .movie-card {
   text-align: center;
 }
 
+/* Define espaçamento entre os elementos dentro do cartão */
 .movie-page .movie-card img,
 .movie-page .movie-card h2,
 .movie-page .movie-card p {
   margin-bottom: 1rem;
 }
 
+/* Tamanho maior para o título */
 .movie-page .movie-card h2 {
   font-size: 2rem;
 }
 
+/* Alinha os ícones e texto da nota */
 .movie-page .movie-card p {
   display: flex;
   align-items: center;
@@ -32,16 +38,19 @@
   gap: 0.4rem;
 }
 
+/* Estilo da frase de destaque (tagline) */
 .tagline {
   text-align: center;
   font-size: 1.3rem;
   margin-bottom: 2rem;
 }
 
+/* Espaçamento entre os blocos de informação */
 .info {
   margin-bottom: 1.5rem;
 }
 
+/* Alinha ícone e título da informação */
 .info h3 {
   margin-bottom: 1rem;
   display: flex;
@@ -49,6 +58,7 @@
   gap: 0.5rem;
 }
 
+/* Define o espaçamento entre linhas do texto */
 .description p {
   line-height: 1.4rem;
 }

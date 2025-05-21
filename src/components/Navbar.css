@@ -1,28 +1,33 @@
+/* Define o estilo da barra de navegação */
 #navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #121212;
+  display: flex; /* Alinha os elementos em linha */
+  justify-content: space-between; /* Espaço entre os elementos */
+  align-items: center; /* Centraliza verticalmente */
+  padding: 1rem 2rem; /* Espaçamento interno */
+  background-color: #121212; /* Fundo escuro */
 }
 
+/* Estiliza o título/link MoviesLib */
 #navbar h2 a {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.5rem; /* Espaço entre o ícone e o texto */
 }
 
+/* Define o layout do formulário de busca */
 #navbar form {
   display: flex;
   gap: 0.5rem;
 }
 
+/* Estilo do campo de entrada de texto */
 #navbar input {
   padding: 0.2rem 0.8rem;
   border-radius: 4px;
   border: none;
 }
 
+/* Estilo do botão de busca */
 #navbar form button {
   background-color: #f7d354;
   border: 2px solid #f7d354;
