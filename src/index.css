@@ -8,7 +8,8 @@
 
 /* Cor de fundo da página inteira */
 body {
-  background-color: #000;
+  background-color: #f0f0f0; /* Altere para um cinza claro ou outra cor para testar */
+  color: #333; /* Adicione uma cor de texto padrão para o body, para visibilidade */
 }
 
 /* Estilo base dos links */
